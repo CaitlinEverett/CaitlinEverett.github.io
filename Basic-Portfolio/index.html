@@ -7,18 +7,66 @@
   <title>Caitlin Everett's Portfolio Page</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="js/scripts.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+    <!-- Header -->
+    <header>
+      <div id="header_inner">
+        <div id="name">Caitlin Everett</div>
+        <nav id="right_nav">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>  
+    <!-- End Header -->
 
-  <h1>Hello World!</h1>
-  
+    <!-- Main Contant Section -->
+    <div id="main_content">
+
+      <!-- inner container -->
+      <div id="inner_container" class="clearfix">
+
+        <!-- Left content section - left side -->
+        <div id="left_content" class="clearfix">
+          <h1>About Me</h1>
+          <img src="assets/images/stones.jpg" alt="stones">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sint repudiandae a sed eum! Sit excepturi quasi minus, provident quod autem cupiditate fuga. Modi, natus a harum non molestiae nesciunt.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos obcaecati tempora accusantium nulla placeat autem provident, iure sapiente eum quidem sit, soluta officia. Illo, corporis aliquid ullam doloribus adipisci recusandae.</p>
+        </div>
+        <!-- End left content seciton -->
+
+        <!-- Connect section -->
+        <aside id="connect">
+          <h2>Connect With Me</h2>
+          <a href="https://github.com/CaitlinEverett" target="blank"><img src="assets/images/github.png" alt="github"></a>
+          <a href="https://www.linkedin.com/in/caitlineverett/" target="blank"><img src="assets/images/linkedin.png" alt="linkedin"></a>
+          <a href="https://stackoverflow.com/users/1175779/caitlin-everett?tab=profile" target="blank"><img src="assets/images/overflow.png" alt="stack overflow"></a>
+        </aside>
+        <!-- End connect Section -->
+
+      </div>
+      <!-- End inner container section -->
+
+    </div>
+    <!-- End Main Content Section -->
+
+    <!-- Footer -->
+    <footer>
+        &#169; 2017 Caitlin Everett
+    </footer>
+    <!-- End footer -->
+
+
 </body>
 </html>
