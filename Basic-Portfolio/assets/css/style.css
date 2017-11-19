@@ -74,8 +74,6 @@ footer{
     visibility: hidden;
 }
 
-
-
 #name{
 	width:auto;
 	float:left;
@@ -84,6 +82,11 @@ footer{
 	height:100%;
 	padding: 35px 20px 20px 20px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#name a{
+	color: #fff;
+	text-decoration: none;
 }
 
 #right_nav{
